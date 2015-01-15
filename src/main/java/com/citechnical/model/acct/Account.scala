@@ -1,0 +1,68 @@
+/**
+ * Copyright 2011 Cape Henry Technologies Inc.
+ * 
+ * Licensed under the Apache License, Version 2.0 
+ * (the "License"); You may not use this file except 
+ * in compliance with the License. You may obtain a 
+ * copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, 
+ * software distributed under the License is distributed on an 
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, 
+ * either express or implied. See the License for the specific 
+ * language governing permissions and limitations under the 
+ * License.
+ * 
+ */
+
+package com.citechnical.model.acct
+
+import com.citechnical.model.financial._
+import com.citechnical.constant._
+
+abstract class Account extends AccountBalance with AccountActivity
+
+// debit +
+case class Asset(code:String, name:String, basis:String) extends Account {
+  override def debitAccount(value:Money):Money = { return null
+//    var bal = this.currentBalance // get balance
+    // create transaction
+//    val trans = new AccountTransaction(value, 1)
+//    bal += trans
+//    this.currentBalance = bal
+  }
+  override def creditAccount(value:Money):Money = {return null}
+  override def addTransaction(trans:AccountTransaction) = {}
+  override def removeTransactionById(transId:Int) = {}
+}
+// debit -
+case class Liability(code:String, name:String, basis:String) extends Account {
+  override def debitAccount(value:Money):Money = {return null}
+  override def creditAccount(value:Money):Money = {return null}
+  override def addTransaction(trans:AccountTransaction) = {}
+  override def removeTransactionById(transId:Int) = {}
+}
+
+case class Equity(code:String, name:String, basis:String) extends Account {
+  override def debitAccount(value:Money):Money = {return null}
+  override def creditAccount(value:Money):Money = {return null}
+  override def addTransaction(trans:AccountTransaction) = {}
+  override def removeTransactionById(transId:Int) = {}
+}
+
+case class Revenue(code:String, name:String, basis:String) extends Account {
+  override def debitAccount(value:Money):Money = {return null}
+  override def creditAccount(value:Money):Money = {return null}
+  override def addTransaction(trans:AccountTransaction) = {}
+  override def removeTransactionById(transId:Int) = {}
+}
+
+case class Expense(code:String, name:String, basis:String) extends Account {
+  override def debitAccount(value:Money):Money = {return null}
+  override def creditAccount(value:Money):Money = {return null}
+  override def addTransaction(trans:AccountTransaction) = {}
+  override def removeTransactionById(transId:Int) = {}
+}
+
+
+
