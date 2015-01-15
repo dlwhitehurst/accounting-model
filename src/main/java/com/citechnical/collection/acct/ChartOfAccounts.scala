@@ -1,5 +1,6 @@
 /**
  * Copyright 2011 Cape Henry Technologies Inc.
+ * Copyright 2014,2015 CITechnical.com
  * 
  * Licensed under the Apache License, Version 2.0 
  * (the "License"); You may not use this file except 
@@ -12,7 +13,8 @@
  * either express or implied. See the License for the specific 
  * language governing permissions and limitations under the 
  * License.
- * 
+ *
+ * Contributor: David L. Whitehurst / dlwhitehurst@gmail.com
  */
 
 package com.citechnical.collection.acct
