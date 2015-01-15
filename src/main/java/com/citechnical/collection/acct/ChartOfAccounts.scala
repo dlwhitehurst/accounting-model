@@ -1,6 +1,6 @@
 /**
- * Copyright 2011 Cape Henry Technologies Inc.
- * Copyright 2014,2015 CITechnical.com
+ * Copyright 2011 Cape Henry Technologies Inc. (Dissolved)
+ * Copyright 2014,2015 CITechnical.com (New Organization)
  * 
  * Licensed under the Apache License, Version 2.0 
  * (the "License"); You may not use this file except 
@@ -14,7 +14,7 @@
  * language governing permissions and limitations under the 
  * License.
  *
- * Contributor: David L. Whitehurst / dlwhitehurst@gmail.com
+ * Contributor: (Owner) David L. Whitehurst / dlwhitehurst@gmail.com
  */
 
 package com.citechnical.collection.acct
