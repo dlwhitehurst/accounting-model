@@ -32,5 +32,6 @@ A Chart of Accounts
 * 512,Shipping Expense,Debit
 * 513,Meals Expense,Debit
 * 514,Auto Expense,Debit
+
 ************************************
 The default chart holds 26 accounts
