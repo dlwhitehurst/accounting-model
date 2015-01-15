@@ -9,28 +9,28 @@ A Chart of Accounts
 * 100,Cash,Debit
 * 101,Equipment,Debit
 * 200,Taxes Payable,Credit
-201,Expenses Payable,Credit
-202,Liability Insurance Payable,Credit
-203,Workers Comp Payable,Credit
-300,Capital,Credit
-301,Retained Earnings,Credit
-302,Shareholder Distributions,Credit
-400,Income,Credit
-401,Interest Earned,Credit
-500,Office Supplies,Debit
-501,Rent Expense,Debit
-502,Electric Expense,Debit
-503,Medical Expense,Debit
-504,Capital Expense,Debit
-505,Books and Periodicals,Debit
-506,Miscellaneous Expense,Debit
-507,Software,Debit
-508,Network and Hosting,Debit
-509,Liability Insurance,Debit
-510,Workers Compensation,Debit
-511,Postage Expense,Debit
-512,Shipping Expense,Debit
-513,Meals Expense,Debit
-514,Auto Expense,Debit
+* 201,Expenses Payable,Credit
+* 202,Liability Insurance Payable,Credit
+* 203,Workers Comp Payable,Credit
+* 300,Capital,Credit
+* 301,Retained Earnings,Credit
+* 302,Shareholder Distributions,Credit
+* 400,Income,Credit
+* 401,Interest Earned,Credit
+* 500,Office Supplies,Debit
+* 501,Rent Expense,Debit
+* 502,Electric Expense,Debit
+* 503,Medical Expense,Debit
+* 504,Capital Expense,Debit
+* 505,Books and Periodicals,Debit* 
+* 506,Miscellaneous Expense,Debit
+* 507,Software,Debit
+* 508,Network and Hosting,Debit
+* 509,Liability Insurance,Debit
+* 510,Workers Compensation,Debit
+* 511,Postage Expense,Debit
+* 512,Shipping Expense,Debit
+* 513,Meals Expense,Debit
+* 514,Auto Expense,Debit
 ************************************
 The default chart holds 26 accounts
