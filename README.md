@@ -6,9 +6,9 @@ project models the domain for a double entry accounting system.
 Here is some console output from the ChartOfAccounts object and class:
 A Chart of Accounts
 ************************************
-100,Cash,Debit
-101,Equipment,Debit
-200,Taxes Payable,Credit
+* 100,Cash,Debit
+* 101,Equipment,Debit
+* 200,Taxes Payable,Credit
 201,Expenses Payable,Credit
 202,Liability Insurance Payable,Credit
 203,Workers Comp Payable,Credit
